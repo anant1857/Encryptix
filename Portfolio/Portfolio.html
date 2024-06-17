@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="Portfolio.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo1.png" alt="" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text ">
+        <p>Full Stack Web Developer</p>
+        <h1>Hi,I'm <Span>Anant Joshi</Span></h1>
+        <p>Aspiring to do work to showcase my skills in web development domain</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="row justify-content-evenly about" id="About">
+    <div class="col-4 imgabout">
+      <img src="images/about.jpg" alt="">
+    </div>
+    <div class="col-4 paraabout">
+      <h1>About <span style="color: red;">Me</span></h1>
+      <p>I am a passionate and dedicated web developer with a strong foundation in HTML, CSS, JavaScript, and ReactJS. I
+        have been honing my skills through various projects. As a fresher, I bring a fresh perspective and a strong
+        willingness to learn and adapt in a fast-paced environment.</p>
+      <p>With a keen eye for design and a commitment to creating user-friendly web applications, I am excited to
+        contribute to dynamic development teams and grow my expertise in the field of web development.</p>
+    </div>
+  </div>
+
+
+  <!-- Skills -->
+  <div class="container" id="skill">
+    <h1 class="skillheading">My <span style="color: red;">Skills</span></h1>
+    <div class="mainskill">
+      <div class="skills">
+
+        <h2>HTML <i class='bx bxl-html5'></i></h2>
+        <div class="progress-bars">
+          <div class="html"><span>80%</span></div>
+        </div>
+        <h2>CSS</h2>
+        <div class="progress-bars">
+          <div class="css"><span>75%</span></div>
+        </div>
+        <h2>Javascript</h2>
+        <div class="progress-bars">
+          <div class="javascript"><span>65%</span></div>
+        </div>
+        <h2>React</h2>
+        <div class="progress-bars">
+          <div class="react"><span>70%</span></div>
+        </div>
+        <h2>Java</h2>
+        <div class="progress-bars">
+          <div class="java"><span>75%</span></div>
+        </div>
+        <h2>SpringBoot</h2>
+        <div class="progress-bars">
+          <div class="spring"><span>60%</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Prjects -->
+   <div id="projects">
+  <h1 class="skillheading mt-5">My <span style="color: red;">Projects</span></h1>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 border-danger text-center ">
+          <img src="images/Patient-Portal.jpg" class="card-img-top image-hover h-50" alt="...">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-danger">E-healthCare Portal</h3>
+            <p class="card-text">E-HealthCare Portal, an Enterprise Resource Planning Software, is a flexible and
+              easy-to-use appointment booking system. It provides an online
+              payment facility and a user-friendly UI that is designed using React.Js.</p>
+            <button type="button" class="btn btn-outline-info">Know More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-danger text-center">
+          <img src="images/fruits.png" class="card-img-top image-hover h-50" alt="...">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-danger">Fruitables</h3>
+            <p class="card-text">The system aims to offer a
+              seamless and efficient shopping experience, making it convenient for customers to
+              access a wide variety of high-quality fruits and promote healthy eating habits.</p>
+            <button type="button" class="btn btn-outline-info">Know More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 border-danger text-center">
+          <img src="images/Pizza-3007395.jpg" class="card-img-top image-hover h-50" alt="...">
+          <div class="card-body bg-dark">
+            <h3 class="card-title text-danger">Pizzahut</h3>
+            <p class="card-text">
+              The PizzaHut Online Ordering System is a comprehensive web application designed to facilitate the seamless
+              ordering of pizzas and other menu items from PizzaHut.</p>
+            <button type="button" class="btn btn-outline-info">Know More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container mt-5">
+      <div class="contactmain">
+        <div class="contactinfo">
+          <h1 class="py-5">Contact <span style="color: red;">Me</span></h1>
+          <p class="py-2"><i class="fa-solid fa-envelope me-4"></i><a
+              href="mailto:joshianant1857@gmail.com">joshianant1857@gmail.com</a></p>
+          <p class="py-2"><i class="fa-solid fa-phone me-4"></i> <span>8847769979</span></p>
+
+          <div class="col-3 d-flex mt-3">
+            <div><a href="https://github.com/anant1857"><button type="button" class="btn btn-outline-danger rounded-circle btn-md-square me-2 "><i
+                    class="fa-brands fa-github"></i></button></a></div>
+            <div><a href="#"><button type="button" class="btn btn-outline-danger rounded-circle btn-md-square me-2 "><i
+                    class="fa-brands fa-facebook-f"></i></button></a></div>
+            <div><a href="https://www.instagram.com/a_n_a_n_t_1857/"><button type="button" class="btn btn-outline-danger rounded-circle btn-md-square me-2 "><i
+                    class="fa-brands fa-instagram"></i></button></a></div>
+            <div><a href="https://www.linkedin.com/in/anant-joshi-a847b6201/"><button type="button" class="btn btn-outline-danger rounded-circle btn-md-square me-2 "><i
+                    class="fa-brands fa-linkedin-in"></i></button></a></div>
+          </div>
+          <a href="images/Anant-Joshi Resume.pdf" download><button type="button" class="btn btn-outline-danger mt-5">Download CV</button></a>
+        </div>
+        <div class="col-7">
+          <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" style="padding: 20px; background: #262626; color: white;">
+          </div>
+          <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Enter Your Email" style="padding: 20px; background: #262626; color: white;">
+          </div>
+          <div class="mb-3">
+              <textarea class="form-control" placeholder="Your Message" rows="6" style="padding: 20px; background: #262626; color: white;"></textarea>
+          </div>
+          <button type="button" class="btn btn-outline-danger text-white w-100 px-5 py-3 mt-2 rounded fw-bold">Submit</button>
+          
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="container">
+    <hr>
+    <p>Copyright &copy; All rights Reseved | This template is Created By Anant Joshi.</p>
+   </div>
+
+</body>
+
+</html>

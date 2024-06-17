@@ -1,0 +1,143 @@
+.header{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+}
+.nav-item .nav-link{
+    color: white;
+}
+
+
+.carouselmain{
+    background-image: url(images/mads-schmidt-rasmussen-6YmzwamGzCg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+a:hover{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate !important;
+}
+.watch{
+     padding: 10px;
+     padding-left: 15px;
+     padding-right: 15px;
+    border-radius: 10px ;
+
+}
+.watch:hover
+{
+    background-color: chocolate;
+    color: white;
+    font-size: 18px;
+}
+.aboutmain{
+padding: 50px;
+background-image: url(images/luda-bee-GGo0ZR1gZWI-unsplash.jpg);
+background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.about{
+padding-top: 50px;
+padding: 25px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.aboutheading{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.imgabout{
+  
+}
+.paraabout{
+  
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+
+.main {
+
+  height: 82vh;
+  display: flex;
+  width: 98vw;
+  align-items: flex-start;
+  flex-wrap:wrap;
+  flex-direction : row;
+  justify-content:space-evenly;
+  
+}
+
+ .package_name {
+    font-size: 20px;
+    font-family: system-ui;
+  }
+  .package_price {
+           font-size: xx-large;
+      }
+  .line {
+        font-size: xxx-large;
+         color: blue;
+              }
+.text{
+display:flex;
+flex-wrap:wrap;
+flex-direction : column;
+ text-align:center;
+ height: 13vh;
+     width: 98vw;
+     margin-top: 50px;
+ color: black;
+}
+.package{
+ border : 1px solid black;
+ text-align:center;
+ padding: 50px;
+ border-radius: 30px;
+ background-color:white;
+ 
+ 
+}
+.package:hover{
+    background-color: cadetblue;
+}
+  span.correct {
+color: blue;
+padding-right: 4px;
+}
+
+span.wrong {
+   padding-right: 6px;
+ }
+ 
+ button.sub {
+    background-color: dodgerblue;
+    padding: 6px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border-radius: 17px;
+    }
+    .subscription {
+     text-decoration: none;
+       color: aliceblue;
+     }
+
+
+     hr {
+        border-top: 2px dashed black;
+      }

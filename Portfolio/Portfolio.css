@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #080808;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/portfolio.jpg);
+    background-size: cover;
+    background-position:center top;
+    
+}
+.container{
+    padding: 5px 5%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 100px;
+    
+    background-color: #fff;
+   
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f ;
+    position: absolute;
+    left: 0;
+    color: chocolate;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    
+}
+nav ul li a:hover{
+    color: red;
+}
+.header-text{
+margin-top: 20%;
+font-size: 20px;
+font-weight: 400;
+
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: red;
+}
+/* About */
+
+.about{
+    padding: 80px 0;
+}
+.imgabout img{
+    border-radius: 15px;
+}
+.paraabout h1{
+    font-size: 60px;
+}
+
+
+/* Skills */
+.skillheading{
+    text-align: center;
+    padding: 15px;
+    
+}
+.mainskill{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.skills h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    /* margin-left: 5px; */
+    font-size: 20px;
+    color: #fff;
+}
+.progress-bars{
+    background-color: #959595 !important;
+    width: 600px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bars div{
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+    
+}
+.progress-bars div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: black;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html{
+    background: #e91e63;
+    animation: html 1s linear forwards;
+}
+.css{
+    background: #cddc39;
+    animation: css 1s linear forwards;
+
+}
+.javascript{
+    background: #00bcd4;
+    animation: javascript 1s linear forwards;
+}
+.react{
+    background: #2cdb18;
+    animation: react 1s linear forwards;
+}
+.spring{
+    background: #ffeb3b;
+    animation: spring 1s linear forwards;
+}
+.java{
+    background: #796b0765;
+    animation: java 1s linear forwards;
+}
+
+.html span{
+    border: 1px solid #e91e63;
+}
+
+.css span{
+    border: 1px solid #cddc39;
+}
+.javascript span{
+    border: 1px solid #00bcd4;
+}
+.react span{
+    border: 1px solid #2cdb18;
+}
+.spring span{
+    border: 1px solid #ffeb3b;
+}
+.java span{
+    border: 1px solid #796b0765;
+}
+
+@keyframes html{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes css{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes javascript{
+    100%{
+        width: 65%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes java{
+    100%{
+        width: 75%;
+    }
+}
+@keyframes spring{
+    100%{
+        width: 60%;
+    }
+}
+
+
+/* Projects */
+.card-img, .image-hover:hover{
+    transition: 0.5s;
+    transform: scale(1.10, 1.10);
+}
+
+.card.text-center.border-danger {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.card.text-center.border-danger:hover {
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+    transition: transform 0.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/* Contact */
+.contactinfo p i{
+    font-size: 25px;
+    color: red;
+}
+.contactinfo p a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.contactinfo p a:hover{
+    color: aqua;
+}
+.contactinfo p span{
+    font-size: 20px;
+}
+.contactmain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.btncv{
+
+}
